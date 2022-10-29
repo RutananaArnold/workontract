@@ -42,7 +42,7 @@ class _WelcomeState extends State<Welcome> {
           ),
           Center(
             child: GlowText(
-              "TRAVEL TOGETHER!!",
+              "WORKONTRACT!!",
               textAlign: TextAlign.center,
               style: TextStyle(
                   color: Colors.black,

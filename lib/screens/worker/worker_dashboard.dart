@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../widgets/cards_infor.dart';
+
 class WorkerDashboard extends StatefulWidget {
   const WorkerDashboard({super.key});
 
@@ -10,6 +12,6 @@ class WorkerDashboard extends StatefulWidget {
 class _WorkerDashboardState extends State<WorkerDashboard> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return CardsInfor();
   }
 }
